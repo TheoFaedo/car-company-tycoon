@@ -1,4 +1,4 @@
-export type UUID = `${string}-${string}-${string}-${string}-${string}`;
+import { UUID } from "./uuid";
 
 export interface Event {
     id: UUID;
